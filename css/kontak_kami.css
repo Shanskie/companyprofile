@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+}
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    background-color: rgb(64, 152, 93);;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.sidebar .nav-link {
+    color: #ffffff;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #495057;
+    text-decoration: none;
+}
+
+.sidebar .nav .collapse {
+    margin-left: 15px;
+}
+
+/* Main Container Styles */
+.container {
+    margin-left: 250px;
+    padding: 70px;
+}
+
+.container-fluid {
+    padding: 20px;
+    background-color: rgb(64, 152, 93);
+    border-bottom:  2px solid #495057;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.container h1,
+.container h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #343a40;
+    font-weight: bold;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: #194814;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+form button:hover {
+    background-color: #194814;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #343a40;
+    font-weight: bold;
+}
+
+td a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
